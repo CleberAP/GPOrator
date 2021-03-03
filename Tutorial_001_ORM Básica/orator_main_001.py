@@ -141,8 +141,6 @@ def insert_form():
 def view_person():
     print("\nRegistros da tabela 'person' ******************\n")
         
-    lista_retornada = select_person()
-
     # Cabeçalho da tabela
     print("{:^5}{:<20}{:<30}{:^6}{:^20}".format('id', 'nome', 'sobrenome', 'sexo', 'data de nascimento'))
     
@@ -214,5 +212,6 @@ while executar_script:
         delete_form()
     elif opcao == 99:
         executar_script = False
+
 
 print("\n************ Algoritmo Finalizado ************\n")
