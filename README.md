@@ -6,7 +6,7 @@ Clique aqui em [Home](https://github.com/CleberAP/GPOrator/wiki) e visite nossa 
 Este repositório conta com a colaboração de:
 
 - [Luiz André Furlan](https://github.com/lamfsantos)
-- [Otávio Natanael](https://orator-orm.com/docs/0.9/query_builder.html#updates)
+- [Otávio Natanael](https://github.com/otavio99)
 
 
 _Agradecimento especial à comunidade Python._
