@@ -145,7 +145,7 @@ def view_person():
     print("{:^5}{:<20}{:<30}{:^6}{:^20}".format('id', 'nome', 'sobrenome', 'sexo', 'data de nascimento'))
     
     for dict_registro in select_person():
-        print("{:^5}{:<20}{:<30}{:^6}{:^20}".format(dict_registro['id'],dict_registro['name'],dict_registro['last_name'],dict_registro['sex'],dict_registro['birth_date']))
+        print("{:^5}{:<20}{:<30}{:^6}{:^20}".format(dict_registro['id'], dict_registro['name'], dict_registro['last_name'], dict_registro['sex'], dict_registro['birth_date']))
     print()
 
 # 8º
