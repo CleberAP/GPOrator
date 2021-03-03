@@ -1,3 +1,13 @@
+# -*- ISO-8859-1 -*-
+#
+# file: orator_main_001.py
+#
+# Created by Cleber Almeida Pereira
+# e-mail: cleber.ap.desenvolvedor@gmail.com
+#
+# programming language: Python v3.7.3
+#
+
 """
 Utilizando Orator ORM de forma básica
 Fonte: https://orator-orm.com/docs/0.9/basic_usage.html
@@ -15,19 +25,19 @@ Etapas desenvolvidas no algoritmo:
 1º. importamos a biblioteca que realiza o gerenciamento;
 2º. criamos a descrição da configuração de conexão do nosso banco de dados;
 3º. instanciamos a classe do Orator responsável pelo gerenciamento do banco de dados;
-4º. declarando os métodos que rodam as queries;*
+4º. declarando as funções que rodam as queries;*
     - SELECT query
     - INSERT query
     - UPDATE query
-        - atualiza pelo id (Este método apresenta um tratamento para identificar quais campos serão atualizados.
+        - atualiza pelo id (Esta função apresenta um tratamento para identificar quais campos serão atualizados.
     - DELETE query
         - deleta o registro do id informado
-5º. declarando um método menu para auxiliar na iteração e teste dos métodos;*
-6º. um método tipo 'formulário', ou simplesmente, que apresenta os campos para inserção dos valores;* 
+5º. declarando uma função menu para auxiliar na iteração e teste das outras funções;*
+6º. uma função que executa um tipo 'formulário', ou simplesmente, que apresenta os campos para inserção dos valores;* 
 7º. exibe cada registro separadamente, como se fosse uma tabela;*
-8º. método tipo 'formulário' para atualização do registro;*
-9º. método para deletar registro pelo id;*
-* Estes métodos foram criados para facilitar a iteração deste script de forma dinâmica;
+8º. função tipo 'formulário' para atualização do registro;*
+9º. função para deletar registro pelo id;*
+* Estas funções foram criados para facilitar a iteração deste script de forma dinâmica;
 
 
 FINAL. bloco de repetição para iteração neste script
