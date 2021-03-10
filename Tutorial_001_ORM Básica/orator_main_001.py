@@ -117,7 +117,6 @@ def delete_person_byId(person_id):
 
 # 5º
 def menu():
-    print("\n************ Algoritmo Finalizado ************\n")
     print("\n******************** MENU ********************\n")
     print("    1. Exibir os dados da tabela 'person'")
     print("    2. Inserir novo registro")
