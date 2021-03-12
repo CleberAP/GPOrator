@@ -10,7 +10,7 @@
 
 """
 Utilizando Query Builder do Orator
-Fonte: https://orator-orm.com/docs/0.9/basic_usage.html
+Fonte: https://orator-orm.com/docs/0.9/query_builder.html
 
 A tradução de Query Builder do inglês para o português é "construtor de consulta de banco de dados".
 Este construtor disponibiliza uma maneiro mais fácil para criar e executar consultas de banco de dados.
