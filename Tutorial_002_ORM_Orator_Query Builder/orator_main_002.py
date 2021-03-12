@@ -136,8 +136,6 @@ def insert_form():
 def view_person():
     print("\nRegistros da tabela 'person' ******************\n")
         
-    lista_retornada = select_person()
-
     # Cabeçalho da tabela
     print("{:^5}{:<20}{:<20}{:^6}{:^20}{:^5}".format('id', 'nome', 'sobrenome', 'sexo', 'data de nascimento','idade'))
     
